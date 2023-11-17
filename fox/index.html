@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Лисий сайт</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title">The mighty fox</h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <img src="bybVRGAjau0.jpg" alt="Fox pic" class="avatar" />
+        <h2>Strager, welcome to my foxpit!</h2>
+        <p>
+          Hi, I'm Fox. 18 y o. I'm a MTYCI student with a passion for creating
+          beautiful and functional things. Welcome to my personal foxpit where
+          you can learn more about me and my fox empire.
+        </p>
+        <h4>My contacs:</h4>
+        <div class="card bg-green">      
+               <a href="https://github.com/DrPechenyshka">
+          <h3>@Foxing.fox </h3> </a>
+            <a href="https://t.me/FoxOfTheRavenPrinz">
+          <h3>FoxOfTheRavenPrinz</h3> </a>
+        </div>
+        
+        <br/>
+
+        <button class="toggle-button" onclick="togglePortfolio()">
+          Fox case
+        </button>
+        <div class="portfolio-menu" id="portfolioMenu">
+          <p>Check out my lil empire:</p>
+          <ul>
+              <a href=https://github.com/DrPechenyshka/Laba_Nomer_2>
+                Work №2
+              </a>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>You have been foxed :></p>
+    </footer>
+    <script>
+      function togglePortfolio() {
+        var portfolioMenu = document.getElementById("portfolioMenu");
+        if (portfolioMenu.style.display === "none") {
+          portfolioMenu.style.display = "block";
+        } else {
+          portfolioMenu.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
